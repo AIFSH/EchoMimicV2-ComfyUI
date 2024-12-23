@@ -1,0 +1,15 @@
+[project]
+name = "echomimicv2-comfyui"
+description = "a custom node for [a/echomimic_v2](https://github.com/antgroup/echomimic_v2)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["diffusers", "omegaconf", "decord", "moviepy", "ffmpeg-python", "av", "matplotlib", "accelerate", "mediapipe", "torchao;sys_platform!='win32'", "IPython", "wheel"]
+
+[project.urls]
+Repository = "https://github.com/AIFSH/EchoMimicV2-ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "EchoMimicV2-ComfyUI"
+Icon = ""
